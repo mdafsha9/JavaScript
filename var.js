@@ -1,4 +1,5 @@
-"use strict"
+//use strict fnd the errors
+"use strict" 
 var firstName = "Marina";
 console.log(firstName);
 
