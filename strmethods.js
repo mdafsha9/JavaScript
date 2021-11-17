@@ -26,3 +26,5 @@ newString = fruitName.slice(0,4);
 console.log(newString);
 newString = fruitName.slice(1,5);
 console.log(newString);
+//passing second parameter, it executes rest of the letters
+console.log(newString.slice(2));
