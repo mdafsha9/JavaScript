@@ -19,3 +19,10 @@ console.log(newString.toUpperCase());
 //toLowerCase
 newString = "APPLE";
 console.log(newString.toLowerCase());
+
+//slice()--first parameter start index and second parameter last index
+fruitName = "Banana";
+newString = fruitName.slice(0,4);
+console.log(newString);
+newString = fruitName.slice(1,5);
+console.log(newString);
