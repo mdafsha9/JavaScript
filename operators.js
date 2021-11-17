@@ -30,3 +30,20 @@ console.log(typeof firstName);
 let lastName = "krumm";
 lastName = Number(lastName);
 console.log(typeof lastName);
+
+//string concatenation
+let str1 = "Cathy";
+let str2 = "Krumm";
+let newString = str1 + " " + str2;
+console.log(newString);
+console.log(typeof newString);
+
+str1 = "12";
+str2 = "20";
+newString = str1 + str2;
+console.log(newString);
+console.log(typeof newString);
+
+newString = +str1 + +str2;
+console.log(newString);
+console.log(typeof newString);
