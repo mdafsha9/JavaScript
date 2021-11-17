@@ -47,3 +47,9 @@ console.log(typeof newString);
 newString = +str1 + +str2;
 console.log(newString);
 console.log(typeof newString);
+
+//template String
+let name = "Afsha";
+let years = 25;
+let aboutme = "My name is " + name + " and I am " + years + ' old';
+console.log(aboutme);
