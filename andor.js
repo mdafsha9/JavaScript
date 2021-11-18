@@ -18,3 +18,9 @@ if(firstName[0] === "R" && age>18 ){
 } else{
   console.log("Must true both the statements in 'and' operator");
 }
+
+if(firstName[1] === "R" || age>18){
+  console.log("Must true atleast one statement in or operator");
+} else{
+  console.log("Both statement are false");
+}
