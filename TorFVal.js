@@ -21,6 +21,7 @@ if(num%2 === 0){
 // undefined
 // null
 // 0
+
 let firstName=null;
 if(firstName){
   console.log(firstName);
