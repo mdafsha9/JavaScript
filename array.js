@@ -29,3 +29,17 @@ vegies.pop();
 console.log(vegies);
 let poppedVegitable = vegies.pop();
 console.log(poppedVegitable);
+
+//unshift to add array element at the start
+
+let vehicles = ["Bolero", "BMW", "Honda"];
+console.log(vehicles);
+vehicles.unshift("Chevrolet");
+console.log(vehicles);
+
+//shift method to remove array element at the start
+console.log(vehicles);
+vehicles.shift();
+console.log(vehicles);
+let removedElement = vehicles.shift();
+console.log(removedElement);
