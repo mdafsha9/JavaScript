@@ -1,4 +1,4 @@
-//Boolean & comparison operator
-let num1 = 12;
-let num2 = 25;
-console.log(num1<num2);
+//ternary operators
+let age = 4;
+ let user = age>=5 ? "coffee":"milk";
+console.log(user);
