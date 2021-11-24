@@ -1,9 +1,13 @@
-//and or operator
-
-let firstName = "loyal";
-let age = 15;
-if(firstName[0] === "R" || age>=18){
-  console.log("FirstName strats with R and 18 years old");
+//nested if else
+let num = prompt("Guess a Number");
+let winningNumber=19;
+if(num === winningNumber){
+  console.log("You win!");
 }else{
-  console.log("age below 18");
+  if(num<winningNumber){
+    console.log("Too low!");
+  }else{
+    console.log("Too high!");
+  }
 }
+console.log(num);
