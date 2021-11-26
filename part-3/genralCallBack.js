@@ -38,3 +38,26 @@ function myFuncA(callback){
 myFuncA(() => {
   console.log("Arrow function");
 })
+
+//Example
+function getTwoNumbers(number1, number2, callback){
+  callback(number1, number2)
+}
+getTwoNumbers(4,5, (num1, num2) => {
+  console.log(num1+num2);
+})
+
+//another Example
+function addTwoNumbers(number3, number4, onSuccess, onFailure){
+  if(typeof number3 === "number" && typeof number4 === "number"){
+      onSuccess(number3, number4)
+  }else{
+    onFailure();
+  }
+}
+addTwoNumbers("4",8, (num3, num4,) => {
+  console.log(num3+num4);
+
+}, ()=>{
+    console.log("Wrong Data Type");
+})
