@@ -8,3 +8,9 @@ function hello(){
 setTimeout(hello, 1000);
 
 console.log("Script end");
+
+//setTimeout with arrow function
+console.log("Script start");
+setTimeout(() => {
+  console.log("Inside setTimeout");
+}, 1000)
