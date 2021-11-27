@@ -8,6 +8,7 @@ setTimeout(()=>{
     console.log(paragraph);
 }, 1000)
 
+//select element using querySelector
 const heading = document.querySelector(".heading1");
 console.log(heading);
 setTimeout(()=>{
