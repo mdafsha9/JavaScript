@@ -1,4 +1,4 @@
-//createa an empty JavaScript objects
+//create an empty JavaScript objects
 
 const person = {};
 person.firstName = "Mary";
