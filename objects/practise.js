@@ -1,7 +1,8 @@
-//variables
+//let keyword
 "use strict";
-var firstName = "Afsha";
+let firstName = "Afsha";
 console.log(firstName);
 
-firstName = "Ishu";
+//variable defined with let cannot be re-declared
+ firstName = "Ishu";
 console.log(firstName);
