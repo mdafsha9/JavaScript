@@ -1,8 +1,6 @@
-//let keyword
+//const keyword
 "use strict";
-let firstName = "Afsha";
-console.log(firstName);
-
-//variable defined with let cannot be re-declared
- firstName = "Ishu";
-console.log(firstName);
+const pi = 3.14;
+//variable defined with const cannot be re-declared
+//variable defined with const cannot be re-assigned
+console.log(pi*2);
