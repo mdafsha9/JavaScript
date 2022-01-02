@@ -1,10 +1,29 @@
-//toUpperCase & toLowerCase
+//data types, number to string conversion & string to number conversion
+//primitive data types
+//string
+//numbers
+//booleans
+//undefined
+//null
+//BigInt
+//symbol
 
-let firstName = "MAnOhAr";
-console.log(firstName.toUpperCase());
-console.log(firstName.toLowerCase());
+let firstName = "Royal";
+console.log(typeof firstName);
+//string to number conversion
+let newName = Number(firstName);
+console.log(typeof newName);
+  //string to number conversion
+firstName = +"Royal";
+console.log(typeof firstName);
 
-let newString = firstName.slice(0,5);
-console.log(newString);
-newString = firstName.slice(5);
-console.log(newString);
+
+
+let age = 22;
+console.log(typeof age);
+//number to string conversion
+let newAge = String(age);
+console.log(typeof newAge);
+//number to string conversion
+age = 22 + "";
+console.log(typeof age);
