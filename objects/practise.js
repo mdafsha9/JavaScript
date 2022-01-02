@@ -1,29 +1,9 @@
-//data types, number to string conversion & string to number conversion
-//primitive data types
-//string
-//numbers
-//booleans
-//undefined
-//null
-//BigInt
-//symbol
+//template strings
 
-let firstName = "Royal";
-console.log(typeof firstName);
-//string to number conversion
-let newName = Number(firstName);
-console.log(typeof newName);
-  //string to number conversion
-firstName = +"Royal";
-console.log(typeof firstName);
+//here we using backtics
 
+let age = 25;
+let firstName = "Mohit";
 
-
-let age = 22;
-console.log(typeof age);
-//number to string conversion
-let newAge = String(age);
-console.log(typeof newAge);
-//number to string conversion
-age = 22 + "";
-console.log(typeof age);
+let aboutMe = `My name is ${firstName} and my age is ${age}`;
+console.log(aboutMe);
