@@ -1,9 +1,13 @@
-//template strings
+//undefined, null and BigInt
 
-//here we using backtics
+let firstName;
+console.log(firstName);
 
-let age = 25;
-let firstName = "Mohit";
+firstName = null;
+console.log(typeof firstName, firstName);
 
-let aboutMe = `My name is ${firstName} and my age is ${age}`;
-console.log(aboutMe);
+let num = BigInt(123);
+let myNum = 22n;
+console.log(num+myNum);
+//max largest integer
+console.log(Number.MAX_SAFE_INTEGER);
