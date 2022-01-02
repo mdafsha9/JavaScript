@@ -1,8 +1,5 @@
-//trim methods
+//toUpperCase & toLowerCase
 
-let firstName = "         Rahul    ";
-
- console.log(firstName, firstName.length);
-
-let newString = firstName.trim();
-console.log(newString, newString.length);
+let firstName = "MAnOhAr";
+console.log(firstName.toUpperCase());
+console.log(firstName.toLowerCase());
