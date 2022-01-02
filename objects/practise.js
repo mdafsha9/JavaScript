@@ -1,7 +1,8 @@
-//string indexing
+//trim methods
 
-let firstName = "California";
+let firstName = "         Rahul    ";
 
-console.log(firstName[2]);
-console.log(firstName.length);
-console.log(firstName[firstName.length-1]);
+ console.log(firstName, firstName.length);
+
+let newString = firstName.trim();
+console.log(newString, newString.length);
