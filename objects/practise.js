@@ -6,7 +6,7 @@
 //undefined
 //null
 
-let firstName = "";
+let firstName = null;
 if(firstName){
   console.log(firstName);
 }else{
