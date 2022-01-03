@@ -9,3 +9,11 @@ if(firstName[0]==="H" && age>18){
 }else{
   console.log("wrong data");
 }
+
+//or operator either one conition is true
+
+if(firstName[0]==="R" || age>18){
+  console.log("inside if");
+}else{
+  console.log("inside else");
+}
