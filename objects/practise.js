@@ -1,13 +1,5 @@
-//undefined, null and BigInt
+//Boolean & camparison operator
+let num1 = 22;
+let num2 = 23;
 
-let firstName;
-console.log(firstName);
-
-firstName = null;
-console.log(typeof firstName, firstName);
-
-let num = BigInt(123);
-let myNum = 22n;
-console.log(num+myNum);
-//max largest integer
-console.log(Number.MAX_SAFE_INTEGER);
+console.log(num1>num2);
