@@ -1,14 +1,4 @@
-//falsy values
-
-//false
-//" "
-//0
-//undefined
-//null
-
-let firstName = null;
-if(firstName){
-  console.log(firstName);
-}else{
-  console.log("Falsy value");
-}
+//ternary operator
+let age = 2;
+let drink = age>=5 ? "Coffee" : "Milk";
+console.log(drink);
