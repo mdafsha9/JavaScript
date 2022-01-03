@@ -1,7 +1,14 @@
-//if else condition
-let num = 13;
-if(num%2 === 0){
-  console.log("even");
+//falsy values
+
+//false
+//" "
+//0
+//undefined
+//null
+
+let firstName = "";
+if(firstName){
+  console.log(firstName);
 }else{
-  console.log("odd");
+  console.log("Falsy value");
 }
