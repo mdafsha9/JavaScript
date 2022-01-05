@@ -1,5 +1,5 @@
-//for of loop
+//for in loop
 let fruits = ["Apple", "Mango", "Grapes", "Banana"];
-for(let fruit of fruits){
-  console.log(fruit);
+for(let index in fruits){
+  console.log(fruits[index]);
 }
