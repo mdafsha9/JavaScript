@@ -1,6 +1,7 @@
-//for loop in arrays
-let fruits = ["Apple", "Mango", "Banana", "Grapes"];
-console.log(fruits);
-for(let i=0; i<fruits.length; i++){
+//while loop in arrays
+let fruits = ["apple", "Mango", "Banana"];
+let i=0;
+while(i<fruits.length){
   console.log(fruits[i].toUpperCase());
+  i++;
 }
