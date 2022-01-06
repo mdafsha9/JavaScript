@@ -1,14 +1,8 @@
-//Objects
-let person = {
-  firstName : "Marie",
-  lastName : "Lorie",
-  age : 22,
-  country:"Canada",
-  hobbies : ["Reading", "Playing", "Swimming"]
-}
-console.log(person);
-console.log(person.hobbies);
-console.log(person.age);
+//create an empty Objects
+let person = {};
+person.firstName = "Mehata";
+person.lastName = "Lorie";
+person.age = 33;
+person.country = "India";
 
-person.nationality = "Indian";
-console.log(person);
+console.log(person.age);
