@@ -1,8 +1,6 @@
-//create an empty Objects
-let person = {};
-person.firstName = "Mehata";
+//create a new keyword
+let person = new Object();
+person.firstName = "Wright";
 person.lastName = "Lorie";
-person.age = 33;
-person.country = "India";
-
-console.log(person.age);
+person.age = 22;
+console.log(person);
