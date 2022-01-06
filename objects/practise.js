@@ -1,7 +1,14 @@
-//Array destructuring
-let myArray = ["item1", "item0", "item2", "item3", "item4"];
-let [myArr1, , myArr2, ...newArr] = myArray;
+//Objects
+let person = {
+  firstName : "Marie",
+  lastName : "Lorie",
+  age : 22,
+  country:"Canada",
+  hobbies : ["Reading", "Playing", "Swimming"]
+}
+console.log(person);
+console.log(person.hobbies);
+console.log(person.age);
 
-console.log(myArr1);
-console.log(myArr2);
-console.log(newArr);
+person.nationality = "Indian";
+console.log(person);
