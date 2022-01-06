@@ -1,13 +1,15 @@
-//computed properties
-let key1 = "myObj1";
-let key2 = "myObj2";
+//spread operstor in Objects
 
-let value1 = "myValue1";
-let value2 = "myValue2";
-
-let obj = {
-  [key1]:value1,
-  key2:value2
+const employee = {
+  firstName : "Lorie",
+  lastName : "Wright",
+  age : 25,
 }
 
-console.log(obj);
+const person = {
+  color :"Black",
+  nationality : "Indian"
+}
+
+let newObj = {...employee, ...person, eyeColor:"Brown"};
+console.log(newObj);
