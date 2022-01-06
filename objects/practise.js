@@ -1,5 +1,7 @@
-//for in loop
-let fruits = ["Apple", "Mango", "Grapes", "Banana"];
-for(let index in fruits){
-  console.log(fruits[index]);
-}
+//Array destructuring
+let myArray = ["item1", "item0", "item2", "item3", "item4"];
+let [myArr1, , myArr2, ...newArr] = myArray;
+
+console.log(myArr1);
+console.log(myArr2);
+console.log(newArr);
