@@ -1,22 +1,13 @@
-//dot vs bracket notation
+//computed properties
+let key1 = "myObj1";
+let key2 = "myObj2";
 
-let person = {
-  firstName : "Gari",
-  age : 22,
-  "person hobbies" : ["Reading", "Playing", "Singing"]
-}
-console.log(person["person hobbies"]);
+let value1 = "myValue1";
+let value2 = "myValue2";
 
-// to iterate Objects we use two types
-//1.for in loop
-//2.Object.keys
-
-for(let key in person){
-  console.log(key, ":", person[key]);
-  //Below i am using backtics
-  console.log(`${key} : ${person[key]}`);
+let obj = {
+  [key1]:value1,
+  key2:value2
 }
 
-for(let key of Object.keys(person)){
-  console.log(person[key]);
-}
+console.log(obj);
