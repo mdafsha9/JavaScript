@@ -1,15 +1,10 @@
-//spread operstor in Objects
-
-const employee = {
-  firstName : "Lorie",
-  lastName : "Wright",
-  age : 25,
-}
-
+//object objDestructuring
 const person = {
-  color :"Black",
-  nationality : "Indian"
+  firstName : "Ale",
+  lastName : "Morie",
+  age : 55,
+  nationality: "Indian"
 }
 
-let newObj = {...employee, ...person, eyeColor:"Brown"};
-console.log(newObj);
+const{fName, lName} = person;
+console.log(fName, lName);
