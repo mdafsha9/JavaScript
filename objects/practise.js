@@ -1,9 +1,10 @@
-//map() mehtod
+//filter() mehtod
 
 let numbers = [1,2,3,4,5,6];
 
-function myFunc(num){
-  return num*num;
+function isOdd(num){
+  return num%2 === 1;
 }
-const squareNumbers = numbers.map(myFunc);
-console.log(squareNumbers);
+
+const myOddNumbers = numbers.filter(isOdd);
+console.log(myOddNumbers);
