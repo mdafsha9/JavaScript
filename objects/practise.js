@@ -1,8 +1,9 @@
-//forEach() method
+//map() mehtod
 
 let numbers = [1,2,3,4,5,6];
 
-function myFunc(number, index){
-  console.log("My number is " + number + "and my index is " + index);
+function myFunc(num){
+  return num*num;
 }
-numbers.forEach(myFunc);
+const squareNumbers = numbers.map(myFunc);
+console.log(squareNumbers);
