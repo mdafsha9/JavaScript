@@ -1,10 +1,8 @@
-//object in arrays
+//forEach() method
 
-let myArray = [
-  {userId:1231, firstName:"Lorie", gender:"Female"},
-  {userId:52253, firstName:"Wright", gender:"Male"},
-  {userId:1258, firstName:"Tom", gender:"Others"}
-]
+let numbers = [1,2,3,4,5,6];
 
-const [{firstName}, , {gender}] = myArray;
-console.log(firstName, gender);
+function myFunc(number, index){
+  console.log("My number is " + number + "and my index is " + index);
+}
+numbers.forEach(myFunc);
