@@ -30,3 +30,9 @@ let users = [
 
 const LowestToHighest = users.sort((a,b)=>a.price-b.price);
 console.log(LowestToHighest);
+
+const totalAmount = users.reduce((totalValue, currentValue)=>
+{
+  return totalValue+currentValue.price;
+}, 0)
+console.log(totalAmount);
