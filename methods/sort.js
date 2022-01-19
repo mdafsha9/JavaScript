@@ -28,6 +28,7 @@ let users = [
   {productId:5, productItem:"Dryier", price:1000},
 ]
 
+
 const LowestToHighest = users.sort((a,b)=>a.price-b.price);
 console.log(LowestToHighest);
 
