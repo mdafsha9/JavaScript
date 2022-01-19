@@ -7,3 +7,9 @@ let firstName = "Richardson";
 for(let char of firstName){
   console.log(char);
 }
+
+//iterating over an array
+let fruits = ["Apple", "Banana", "Grapes", "Orange"];
+for(let fruit of fruits){
+  console.log(fruit);
+}
