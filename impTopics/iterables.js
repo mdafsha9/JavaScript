@@ -13,3 +13,11 @@ let fruits = ["Apple", "Banana", "Grapes", "Orange"];
 for(let fruit of fruits){
   console.log(fruit);
 }
+
+//array like objects
+//where we can apply lenght property and index those are array like object
+//strings are array like object
+
+firstName = "RomanRoy";
+console.log(firstName.length);
+console.log(firstName[2]);
