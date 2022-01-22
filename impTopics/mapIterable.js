@@ -2,6 +2,7 @@
 //difference between object and map
 
 //objects can only have string or symbols as a key
+//in objects we can apply for in loop and we cannot apply for of loop
 
 const person = {
   firstName : "Rosie",
@@ -15,7 +16,7 @@ for(let key in person){
 }
 
 //in map we can use anything as key like arrays, numbers, strings, objects
-
+//in map we can apply for of loop
 const student = new Map();
 student.set('firstName', 'Morie');
 student.set('age', 12);
