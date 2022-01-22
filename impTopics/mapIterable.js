@@ -17,6 +17,13 @@ for(let key in person){
 
 //in map we can use anything as key like arrays, numbers, strings, objects
 //in map we can apply for of loop
+
+const employees = new Map([['firstName', 'Lorie'],['age',18],[1,'one'],[[1,2,3] , 'oneTwoThree']]);
+console.log(employees);
+for(let employee of employees ){
+  console.log(employee);
+}
+
 const student = new Map();
 student.set('firstName', 'Morie');
 student.set('age', 12);
