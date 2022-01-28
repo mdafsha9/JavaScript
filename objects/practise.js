@@ -13,4 +13,4 @@ const user1 = {
   age:15
 }
 
-console.log(user.about.call(user1, "Reading", "Fish"));
+console.log(user.about.apply(user1, ["Reading", "Fish"]));
