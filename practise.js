@@ -17,5 +17,11 @@ console.log(typeof lastName);
 let vegies = null;
 console.log(typeof vegies);
 
-vegies = false;
-console.log(typeof vegies);
+
+let num = 12 + " ";
+console.log(typeof num);
+
+
+
+let name = +"Roy";
+console.log(typeof name);
