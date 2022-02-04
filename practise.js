@@ -33,3 +33,9 @@ let hobby = "Singing";
 console.log(typeof hobby);
 hubby = Number(hobby);
 console.log(typeof hubby);
+
+console.log(Number.MAX_SAFE_INTEGER);
+
+let number = BigInt(123);
+let numb = 12n;
+console.log(number+numb);
