@@ -1,18 +1,21 @@
-let firstName = "MariGold";
-console.log(firstName.length);
+//typeof, string to num, num to string conversion
 
-console.log(firstName[firstName.length-1]);
-console.log(firstName[1]);
+let firstName = "Mariya";
+let age = 12;
+let fruits = ["Apple", "Mango", "Grapes"];
+let person = {
+  fName : "Lasya",
+  eyeColor:"Black"
+}
+let lastName;
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof fruits);
+console.log(typeof person);
+console.log(typeof lastName);
 
-//trim() strmethods
+let vegies = null;
+console.log(typeof vegies);
 
-firstName = "      MAriya       ";
-console.log(firstName, firstName.length);
-console.log(firstName.trim(), firstName.length);
-
-console.log(firstName.toUpperCase());
-console.log(firstName.toLowerCase());
-
-let fruitName = "Banana";
-let newString = fruitName.slice(2,4);
-console.log(newString);
+vegies = false;
+console.log(typeof vegies);
