@@ -21,7 +21,15 @@ console.log(typeof vegies);
 let num = 12 + " ";
 console.log(typeof num);
 
-
-
 let name = +"Roy";
 console.log(typeof name);
+
+let num1 = 18;
+console.log(typeof num1);
+num2 = String(num1);
+console.log(typeof num2);
+
+let hobby = "Singing";
+console.log(typeof hobby);
+hubby = Number(hobby);
+console.log(typeof hubby);
