@@ -1,14 +1,19 @@
-//and or operator
+//nested if else
 
 
 
 
 
 
-let firstName = "Royal";
-let age = 12;
-if( firstName[0] === "R" || age>18){
-  console.log("Your name starts with R and age is above 18");
+let winningNum = 19;
+
+if(winningNum < 19){
+  console.log("Too low!");
 }else{
-  console.log("Sorry! your not qualified.");
+  if(winningNum === 19){
+    console.log("you guess right number!");
+  }else{
+    console.log("Too high!");
+  }
+
 }
