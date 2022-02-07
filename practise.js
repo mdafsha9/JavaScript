@@ -1,6 +1,5 @@
-//template String
+//booleans and camparion
 
-let firstName = "MArie";
-let age =12;
+let num = 12;
 
-console.log(`${firstName} is ${age} years old.`);
+console.log(num<15);
