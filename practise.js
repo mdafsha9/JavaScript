@@ -1,19 +1,15 @@
-//nested if else
+// if else if
 
+let num = 75;
 
-
-
-
-
-let winningNum = 19;
-
-if(winningNum < 19){
-  console.log("Too low!");
+if(num === 35){
+  console.log("Just passed");
+} else if(num<45){
+  console.log("Below average marks!");
+}else if(num<55){
+  console.log("Average marks!");
+}else if(num<66){
+  console.log("Above average marks!");
 }else{
-  if(winningNum === 19){
-    console.log("you guess right number!");
-  }else{
-    console.log("Too high!");
-  }
-
+  console.log("First class!");
 }
