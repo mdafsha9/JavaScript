@@ -1,15 +1,30 @@
-// if else if
+//switch statement
 
-let num = 75;
+let day = 0;
 
-if(num === 35){
-  console.log("Just passed");
-} else if(num<45){
-  console.log("Below average marks!");
-}else if(num<55){
-  console.log("Average marks!");
-}else if(num<66){
-  console.log("Above average marks!");
-}else{
-  console.log("First class!");
+switch(day){
+  case 0:
+    console.log("Sunday!");
+    break;
+  case 1:
+    console.log("Monday!");
+    break;
+    case 2:
+      console.log("Tuesday!");
+      break;
+      case 3:
+        console.log("Wednesday!");
+        break;
+        case 4:
+          console.log("Thrusday!");
+          break;
+          case 5:
+            console.log("Friday!");
+            break;
+            case 6:
+              console.log("Saturday!");
+              break;
+              default:
+              console.log("Invalid day!");
+
 }
