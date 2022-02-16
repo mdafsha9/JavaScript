@@ -1,30 +1,45 @@
-//switch statement
+//arrays
 
-let day = 0;
+const fruits = ["Apple", "orange", "Mango"];
+console.log(fruits, typeof fruits);
+console.log(fruits.length, Array.isArray(fruits), fruits[fruits.length-1]);
 
-switch(day){
-  case 0:
-    console.log("Sunday!");
-    break;
-  case 1:
-    console.log("Monday!");
-    break;
-    case 2:
-      console.log("Tuesday!");
-      break;
-      case 3:
-        console.log("Wednesday!");
-        break;
-        case 4:
-          console.log("Thrusday!");
-          break;
-          case 5:
-            console.log("Friday!");
-            break;
-            case 6:
-              console.log("Saturday!");
-              break;
-              default:
-              console.log("Invalid day!");
+//add an element at the last use pusp()
 
+fruits.push("Banana");
+console.log(fruits);
+
+//remove an element at the last we use shift()
+
+fruits.shift();
+console.log(fruits);
+
+//add an eleemnt at the first we use unshift()
+fruits.unshift("Apple");
+console.log(fruits);
+
+//remove an element at the last we use pop()
+fruits.pop();
+console.log(fruits);
+
+for(let fruit of fruits){
+  console.log(fruits);
+}
+for(let index in fruits){
+  console.log(fruits[index]);
+}
+
+//for loop
+
+for(let i=0; i<=fruits.length-1; i++){
+  console.log(fruits[i]);
+}
+
+//while loop
+
+let i = 0;
+
+while(i<=fruits.length-1){
+  console.log(fruits[i]);
+  i++;
 }
