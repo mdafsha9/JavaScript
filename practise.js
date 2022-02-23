@@ -1,9 +1,10 @@
 // function returning function
-function outterFunction(firstName, lastName){
-    function innerFunction(arg){
-      console.log(firstName, lastName);
-    }
-  return innerFunction;
+function outterFunction(x){
+  const firstName = "Lahari";
+  const lastName = "Tommy";
+  return function(){
+    console.log(x,firstName,lastName);
+  }
 }
-const ans = outterFunction("Marie", "Lorie");
+const ans = outterFunction("Puppy");
 ans();
