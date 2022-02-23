@@ -1,5 +1,5 @@
-//function declartion
-function myFunction(a,b){
-  console.log(a*b);
+//function expression
+const x = function(a,b){
+  return a*b;
 }
-myFunction(4,2);
+console.log(x(2,6));
