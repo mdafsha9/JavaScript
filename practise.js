@@ -1,10 +1,9 @@
-//callback function
-function addTwoNum(a,b){
-  console.log(a*b);
+// function returning function
+function fullName(firstName, lastName){
+  function FName(){
+    console.log(firstName, lastName);
+  }
+  return FName;
 }
-
-function myFunction(callback){
-  callback(2,3);
-}
-
-myFunction(addTwoNum);
+const ans = fullName("Marie", "Roy");
+ans();
