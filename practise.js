@@ -1,10 +1,15 @@
 // function returning function
-function myFunction(power){
-  return function(number){
-    return number ** power;
+function func(){
+  let counter = 0;
+  return function(){
+    if(counter < 1){
+      console.log("Hi, You called me!");
+      counter++;
+    }else{
+      console.log("You already called me!");
+    }
   }
 }
-
-const cube = myFunction(3);
-const ans = cube(2);
-console.log(ans);
+const myFunc = func();
+myFunc();
+myFunc();
