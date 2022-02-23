@@ -1,9 +1,5 @@
-//functions
-function myFunction(){
-function hello(a,b){
-    return a*b;
-  }
-  console.log(hello(2,3));
-  console.log("Global function");
+//function declartion
+function myFunction(a,b){
+  console.log(a*b);
 }
-myFunction();
+myFunction(4,2);
