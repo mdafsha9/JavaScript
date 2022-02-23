@@ -1,9 +1,9 @@
 // function returning function
-function fullName(firstName, lastName){
-  function FName(){
-    console.log(firstName, lastName);
-  }
-  return FName;
+function outterFunction(firstName, lastName){
+    function innerFunction(arg){
+      console.log(firstName, lastName);
+    }
+  return innerFunction;
 }
-const ans = fullName("Marie", "Roy");
+const ans = outterFunction("Marie", "Lorie");
 ans();
