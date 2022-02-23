@@ -1,10 +1,10 @@
 // function returning function
-function outterFunction(x){
-  const firstName = "Lahari";
-  const lastName = "Tommy";
-  return function(){
-    console.log(x,firstName,lastName);
+function myFunction(power){
+  return function(number){
+    return number ** power;
   }
 }
-const ans = outterFunction("Puppy");
-ans();
+
+const cube = myFunction(3);
+const ans = cube(2);
+console.log(ans);
