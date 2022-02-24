@@ -1,7 +1,5 @@
 //closures
-
-//Example1
-
+//Example 1
 function outterFunction(firstName, lastName){
   function innerFunction(){
     console.log(firstName, lastName);
@@ -11,27 +9,42 @@ function outterFunction(firstName, lastName){
 const ans = outterFunction("Lorie", "Wright");
 ans();
 
-//Exmaple2
+//Example2
 
-function outFunc(x){
-  const a = 2;
-  const b = 4;
-  function innFunc(){
-    console.log(a,b,x);
+function outFunc(age){
+  const firstName = "Megha";
+  const lastName = "Roy";
+  return function(){
+    console.log(firstName, lastName, age);
   }
-  return innFunc;
+
 }
-const answer = outFunc(3);
+const answer = outFunc(25);
 answer();
 
 
 //Example3
-
 function myFunc(power){
   return function(number){
-    return number ** power;
+    return number**power;
   }
 }
 const cube = myFunc(3);
-const finalAnswer = cube(2);
-console.log(finalAnswer);
+const value = cube(2);
+console.log(value);
+
+//Example4
+function myFunction(){
+  let counter = 0;
+  return function(){
+    if(counter < 1){
+      console.log("Hi! You called me.");
+      counter++;
+    }else{
+      console.log("Hey! You already called me.");
+    }
+  }
+}
+const func = myFunction();
+func();
+func();
