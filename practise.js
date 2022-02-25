@@ -1,15 +1,19 @@
-// function returning function
-function func(){
+// closures
+
+
+
+
+function outFunc(){
   let counter = 0;
   return function(){
-    if(counter < 1){
+    if(counter<1){
       console.log("Hi, You called me!");
       counter++;
     }else{
-      console.log("You already called me!");
+      console.log("Hey! You already called me.");
     }
   }
 }
-const myFunc = func();
-myFunc();
-myFunc();
+const func = outFunc();
+func();
+func();
