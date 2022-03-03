@@ -1,8 +1,10 @@
-// foreach
+// map method
 
-const numbers = [2,5,8,6];
+const numbers = [1,2,3,4,5,6,7,8,9,10];
 
-function myFunc(number){
-  console.log(number);
+function table(number){
+  return number*5;
 }
-numbers.forEach(myFunc);
+
+const fifthTable = numbers.map(table);
+console.log(fifthTable);
