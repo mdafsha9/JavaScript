@@ -1,10 +1,11 @@
-// map method
 
-const numbers = [1,2,3,4,5,6,7,8,9,10];
+//filter method
 
-function table(number){
-  return number*5;
+const digits = [2,5,3,8,7,9];
+
+function isEven(num){
+  return num%2 === 0;
 }
 
-const fifthTable = numbers.map(table);
-console.log(fifthTable);
+const EvenNumber = digits.filter(isEven);
+console.log(EvenNumber);
