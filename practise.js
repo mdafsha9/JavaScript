@@ -1,11 +1,8 @@
 
-//reduce method
+//sort method
 
 const numbers = [1,5,6,2];
 
-function sum(accumulator, currentValue){
-  return accumulator + currentValue ;
-}
+numbers.sort((a,b) => a-b);
 
-const total = numbers.reduce(sum);
-console.log(total);
+console.log(numbers);
