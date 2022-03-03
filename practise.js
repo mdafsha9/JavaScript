@@ -1,11 +1,11 @@
 
-//filter method
+//reduce method
 
-const digits = [2,5,3,8,7,9];
+const numbers = [1,5,6,2];
 
-function isEven(num){
-  return num%2 === 0;
+function sum(accumulator, currentValue){
+  return accumulator + currentValue ;
 }
 
-const EvenNumber = digits.filter(isEven);
-console.log(EvenNumber);
+const total = numbers.reduce(sum);
+console.log(total);
