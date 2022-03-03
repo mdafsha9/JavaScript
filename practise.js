@@ -1,19 +1,8 @@
-// closures
+// foreach
 
+const numbers = [2,5,8,6];
 
-
-
-function outFunc(){
-  let counter = 0;
-  return function(){
-    if(counter<1){
-      console.log("Hi, You called me!");
-      counter++;
-    }else{
-      console.log("Hey! You already called me.");
-    }
-  }
+function myFunc(number){
+  console.log(number);
 }
-const func = outFunc();
-func();
-func();
+numbers.forEach(myFunc);
