@@ -1,13 +1,12 @@
 
 //closures
 
-function outterFunction(age){
-  const firstName = "Lorie";
-  const lastName = "Wright";
-  function innerFunction(){
-    console.log(firstName, lastName, age);
+function myFunc(power){
+  return function(num){
+    return num ** power;
   }
-  return innerFunction;
 }
-const ans = outterFunction(20);
-ans();
+
+const cube = myFunc(3);
+const ans = cube(2);
+console.log(ans);
