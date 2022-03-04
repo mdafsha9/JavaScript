@@ -1,10 +1,6 @@
 //find()
 
-const myArray = ["Applei  ", "MAngoi", "Grapes", "Pappy"] ;
+const numbers = [1,3,5,7,9];
 
-function isLength(string){
-  return string.length === 5;
-}
-
-const ans = myArray.find(isLength);
+const ans = numbers.every((number) => number%2 === 1);
 console.log(ans);
