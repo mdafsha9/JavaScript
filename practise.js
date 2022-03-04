@@ -1,12 +1,10 @@
+//find()
 
-//closures
+const myArray = ["Applei  ", "MAngoi", "Grapes", "Pappy"] ;
 
-function myFunc(power){
-  return function(num){
-    return num ** power;
-  }
+function isLength(string){
+  return string.length === 5;
 }
 
-const cube = myFunc(3);
-const ans = cube(2);
+const ans = myArray.find(isLength);
 console.log(ans);
