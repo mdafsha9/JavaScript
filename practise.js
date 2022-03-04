@@ -1,8 +1,13 @@
 
-//sort method
+//closures
 
-const numbers = [1,5,6,2];
-
-numbers.sort((a,b) => a-b);
-
-console.log(numbers);
+function outterFunction(age){
+  const firstName = "Lorie";
+  const lastName = "Wright";
+  function innerFunction(){
+    console.log(firstName, lastName, age);
+  }
+  return innerFunction;
+}
+const ans = outterFunction(20);
+ans();
