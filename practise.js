@@ -1,8 +1,15 @@
-//array destructuring
-
-const myArray = ["val1", "val2", "val3"];
-
-let myNewArr = myArray.slice(2);
+//Object destructuring
 
 
-console.log(myNewArr);
+const person = {
+  firstName : "Leela",
+  lastName : "Roy",
+  age :25,
+  country : "India"
+}
+
+let {firstName, lastName, ...restProps} = person;
+
+console.log(firstName);
+console.log(lastName);
+console.log(restProps);
