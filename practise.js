@@ -1,9 +1,8 @@
-//find()
+//array destructuring
 
-i=10;
-if(i>1){
+const myArray = ["val1", "val2", "val3"];
 
-  var i = i+1;
-}
-console.log(i);
-var i;
+let myNewArr = myArray.slice(2);
+
+
+console.log(myNewArr);
