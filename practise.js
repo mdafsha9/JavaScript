@@ -1,15 +1,9 @@
-//Object destructuring
+//forEach()
 
+let numbers = [1,2,3,4,5];
 
-const person = {
-  firstName : "Leela",
-  lastName : "Roy",
-  age :25,
-  country : "India"
+function table(number){
+  console.log(number*2);
 }
 
-let {firstName, lastName, ...restProps} = person;
-
-console.log(firstName);
-console.log(lastName);
-console.log(restProps);
+numbers.forEach(table);
