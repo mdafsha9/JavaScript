@@ -1,9 +1,10 @@
-//forEach()
+//map() mthod
 
 let numbers = [1,2,3,4,5];
 
 function table(number){
-  console.log(number*2);
+  return number*3;
 }
 
-numbers.forEach(table);
+let myTable = numbers.map(table);
+console.log(myTable)
