@@ -1,10 +1,10 @@
-//filter() mthod
+//reduce() mthod
 
 let numbers = [1,2,3,4,5];
 
-function isEven(number){
-   return number%2 === 0;
+function sum(accumaltor, currentValue){
+   return accumaltor+currentValue;
 }
 
-let Even = numbers.filter(isEven);
-console.log(Even);
+let Total = numbers.reduce(sum);
+console.log(Total);
