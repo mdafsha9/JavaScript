@@ -1,10 +1,10 @@
-//map() mthod
+//filter() mthod
 
 let numbers = [1,2,3,4,5];
 
-function table(number){
-  return number*3;
+function isEven(number){
+   return number%2 === 0;
 }
 
-let myTable = numbers.map(table);
-console.log(myTable)
+let Even = numbers.filter(isEven);
+console.log(Even);
