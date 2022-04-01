@@ -1,10 +1,6 @@
-//reduce() mthod
+//sort( ) method
+let numbers = [2,8,1,6,9,0,3];
 
-let numbers = [1,2,3,4,5];
+numbers.sort((a,b) => a-b);
 
-function sum(accumaltor, currentValue){
-   return accumaltor+currentValue;
-}
-
-let Total = numbers.reduce(sum);
-console.log(Total);
+console.log(numbers);
