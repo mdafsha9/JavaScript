@@ -3,9 +3,9 @@
 
 let numbers = [1,5,6,8,9];
 
-function display(number){
-  return number*2;
+function even(number){
+  return number%2 === 0;
 }
 
-let displayNumbers = numbers.map(display);
-console.log(displayNumbers);
+let evenNums = numbers.filter(even);
+console.log(evenNums);
