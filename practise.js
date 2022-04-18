@@ -3,9 +3,9 @@
 
 let numbers = [1,5,6,8,9];
 
-function even(number){
-  return number%2 === 0;
+function sum(accum, currentVal){
+  return accum+currentVal;
 }
 
-let evenNums = numbers.filter(even);
-console.log(evenNums);
+let totalNums = numbers.reduce(sum);
+console.log(totalNums);
