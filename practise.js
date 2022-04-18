@@ -1,11 +1,11 @@
 //forEach method
 
 
-let numbers = [9,5,2,8,1];
+let animals = ["Horse", "Dog", "Cat"];
 
-function assending(a,b){
-  return a-b;
+function anim(string){
+  return string.length === 5;
 }
 
-let assNums = numbers.sort(assending);
-console.log(assNums);
+let animal = animals.find(anim);
+console.log(animal);
