@@ -1,6 +1,10 @@
-//sort( ) method
-let numbers = [2,8,1,6,9,0,3];
+//forEach method
 
-numbers.sort((a,b) => a-b);
 
-console.log(numbers);
+let numbers = [1,5,6,8,9];
+
+function display(number){
+  console.log(number);
+}
+
+numbers.forEach(display);
