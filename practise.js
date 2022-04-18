@@ -1,11 +1,11 @@
 //forEach method
 
 
-let numbers = [1,5,6,8,9];
+let numbers = [9,5,2,8,1];
 
-function sum(accum, currentVal){
-  return accum+currentVal;
+function assending(a,b){
+  return a-b;
 }
 
-let totalNums = numbers.reduce(sum);
-console.log(totalNums);
+let assNums = numbers.sort(assending);
+console.log(assNums);
