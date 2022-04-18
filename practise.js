@@ -4,7 +4,8 @@
 let numbers = [1,5,6,8,9];
 
 function display(number){
-  console.log(number);
+  return number*2;
 }
 
-numbers.forEach(display);
+let displayNumbers = numbers.map(display);
+console.log(displayNumbers);
