@@ -1,17 +1,11 @@
 //iterate objects
-const employee = {
-  name : "Wright",
-  age : 25,
-  hobbies : ["cricket", "Reading", "Dancing"]
-}
-//using for in loop
-// for(let key in employee){
-//   console.log(key);
-//   console.log(employee[key]);
-// }
+//iterable objects are objects that can be iterated over with for...of loop
+//objects are not iterable//iterating over an array or a string//
+//arrays like objects are string and array becuase both are having index and length property
 
 
-//using Object.keys
-for(let key of Object.keys(employee)){
-  console.log(employee[key]);
+let name = "Afsha";
+
+for(let char of name){
+  console.log(char);
 }
