@@ -1,8 +1,9 @@
 //constructor function
 
 
-let name = "Afsha";
+let fruits = ["Apple", "Mango", "Orange"];
 
-for(let char of name){
-  console.log(char);
+for(let fruit of fruits){
+
+  console.log(fruit);
 }
