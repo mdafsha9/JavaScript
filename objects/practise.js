@@ -5,5 +5,5 @@ let fruits = ["Apple", "Mango", "Orange"];
 
 for(let fruit of fruits){
 
-  console.log(fruit);
+  console.log(fruit[1]);
 }
