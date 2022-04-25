@@ -1,16 +1,12 @@
-//call, apply and bind method
+//constructor function
 
-const user = {
-  firstName : "Holly",
-  age : 12,
-  about : function(hobby, favDish){
-    return `${this.firstName} is ${this.age} years old and my hobbby is ${hobby}, ${favDish} `;
-  }
+
+function Person(first, last, age) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
 }
 
-const user1 = {
-  firstName:"Marie",
-  age:15
-}
-
-console.log(user.about.apply(user1, ["Reading", "Fish"]));
+const myFather = new Person("John", "Hue", 25);
+const myMother = new Person("Lorie", "Wright", 15);
+console.log(myMother.firstName + ' '+ myMother.lastName + " is a " + myMother.age );
